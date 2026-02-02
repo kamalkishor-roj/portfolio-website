@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamalkishor Roj | Data Scientist</title>
+    <meta name="description"
+        content="Portfolio of Kamalkishor Roj, a Data Scientist specializing in predictive modeling, Machine Learning, and AI-driven strategies.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Placeholder for FA, using local SVG or CDN if preferred closer to prod -->
+    <!-- Using a CDN for FontAwesome for icons (standard practice for portfolios) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Canvas for Atom Effect -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">KKR.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Kamalkishor Roj</h1>
+            <h2>Data Scientist & Machine Learning Enthusiast</h2>
+            <p>Specializing in Predictive Modeling, EDA, and AI-driven Strategies</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View My Projects</a>
+                <a href="assets/resume.pdf" class="btn secondary" download>Download Resume <i
+                        class="fas fa-download"></i></a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/kamalkishor-roj" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kamalkishor-roj/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a final-year Computer Engineering student at <strong>Ajeenkya D. Y. Patil School of
+                            Engineering</strong> graduating in 2026. My foundation in engineering has fueled a deep
+                        interest in how data can be leveraged to solve real-world problems.</p>
+                    <p>My mission is to bridge the gap between raw data and actionable insights. I am passionate about
+                        applying machine learning and AI-driven strategies to tackle complex business challenges, from
+                        healthcare risks to supply chain optimization.</p>
+                    <p class="status"><strong>Current Status:</strong> I am currently focusing on developing advanced
+                        AI/ML projects, specifically exploring Generative AI and Large Language Models (LLMs) to build
+                        intelligent, data-driven applications.</p>
+                </div>
+                <!-- Optional: Add headshot image here if provided, otherwise placeholder or remove -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming & Databases</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>SQL (Joins, CTEs, Window Functions)</li>
+                        <li>RDBMS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Machine Learning</h3>
+                    <ul class="skill-list">
+                        <li>Scikit-learn</li>
+                        <li>XGBoost</li>
+                        <li>Random Forest</li>
+                        <li>Feature Engineering</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-bar"></i> Data Visualization</h3>
+                    <ul class="skill-list">
+                        <li>Power BI</li>
+                        <li>Pandas</li>
+                        <li>Matplotlib</li>
+                        <li>Seaborn</li>
+                        <li>Excel</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-robot"></i> Generative AI & Tools</h3>
+                    <ul class="skill-list">
+                        <li>LangChain</li>
+                        <li>RAG</li>
+                        <li>FastAPI</li>
+                        <li>Docker</li>
+                        <li>Streamlit</li>
+                        <li>Git</li>
+                        <li>MLflow</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Agri-Doctor: A Multi-Modal AI System for Plant Disease Detection & Prescription</h3>
+                        <p>Developed a multi-modal AI system for plant pathology that identifies diseases and provides
+                            prescriptions. <strong>Integrated CNN-based computer vision with LLMs</strong> to deliver
+                            real-time, actionable agricultural treatment plans.</p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>CNN</span>
+                            <span>LLM</span>
+                            <span>Streamlit</span>
+                            <span>LangChain</span>
+                        </div>
+                        <a href="https://github.com/kamalkishor-roj/Agri-Doctor-AI" class="btn-link">View Repository <i
+                                class="fas fa-arrow-right"></i></a>
+                        <div class="project-details">
+                            <img src="assets/Agri-doc.png" alt="Project Dashboard" class="project-img">
+                            <p><strong>The Problem:</strong> Agricultural productivity is often hampered by crop
+                                diseases that go undetected or are misdiagnosed, leading to significant yield loss for
+                                farmers.
+                                <strong>The Solution:</strong> I developed an AI-driven application that identifies
+                                plant diseases from images and provides automated treatment prescriptions.
+                                <strong>Technical Highlights:</strong>Developed a Computer Vision model using CNNs
+                                (Convolutional Neural Networks) to classify various plant diseases with high accuracy.
+                                Integrated a Generative AI (LLM) component to generate detailed prescriptions and care
+                                instructions based on the identified disease.
+                                Designed the system to bridge the gap between complex diagnostic technology and
+                                practical, actionable advice for farmers.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>MediFlow: Sepsis Risk Prediction</h3>
+                        <p>Developed a predictive model for sepsis risk using highly imbalanced clinical data.
+                            <strong>Achieved
+                                a ROC-AUC of 0.89</strong> using advanced ensemble methods.
+                        </p>
+                        <div class="tags">
+                            <span>Docker</span>
+                            <span>MLflow</span>
+                            <span>Python</span>
+                            <span>XGBoost</span>
+                            <span>Streamlit</span>
+                        </div>
+                        <a href="https://github.com/kamalkishor-roj/Mediflow" class="btn-link">View Repository <i
+                                class="fas fa-arrow-right"></i></a>
+                        <div class="project-details">
+                            <img src="assets/mediflow.png" alt="Project Dashboard" class="project-img">
+                            <p><strong>The Problem:</strong> Sepsis is a life-threatening condition where early
+                                detection is critical but difficult due to the complex nature of patient vitals.
+                                <strong>The Solution:</strong> I built an end-to-end machine learning system designed to
+                                predict sepsis risk in real-time using ICU patient data.
+                                <strong>Technical Highlights:</strong> Trained an XGBoost classifier that achieved an
+                                <strong>ROC-AUC of $\approx0.89$</strong>, effectively handling highly imbalanced
+                                clinical datasets. Deployed the model using FastAPI, achieving sub-50 ms latency for
+                                real-time predictions.Implemented MLflow for experiment tracking and used Docker for
+                                containerization to ensure seamless deployment.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>SpaceX Falcon 9 Landing Prediction</h3>
+                        <p>End-to-end data science project predicting landing success. Involved web scraping, SQL
+                            analysis, and interactive Folium visualizations.</p>
+                        <div class="tags">
+                            <span>Web Scraping</span>
+                            <span>SQL</span>
+                            <span>Folium</span>
+                            <span>Plotly Dash</span>
+                            <span>GridSearchCV</span>
+                        </div>
+                        <a href="https://github.com/kamalkishor-roj/IBM-Data-Science-Capstone-SpaceX-Project"
+                            class="btn-link">View Repository <i class="fas fa-arrow-right"></i></a>
+                        <div class="project-details">
+                            <img src="assets/Folium2.png" alt="Project Dashboard" class="project-img">
+                            <p><strong>The Problem:</strong> Predicting whether the first stage of a Falcon 9 rocket
+                                will land successfully is vital for determining the cost of reusable launches.
+                                <strong>The Solution:</strong> I developed a comprehensive data science pipeline to
+                                predict landing success by analyzing historical launch data.
+                                <strong>Technical Highlights:</strong>
+                                Integrated data from the SpaceX API and utilized web scraping to build a robust dataset.
+                                Performed exploratory data analysis (EDA) using SQL to identify correlations between
+                                launch sites and success rates.
+                                Created interactive maps and dashboards using Folium and Plotly Dash to visualize
+                                geographical launch patterns.
+                                Optimized classification models through GridSearchCV to find the most accurate
+                                predictive parameters.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Customer Churn Prediction</h3>
+                        <p>Automated preprocessing pipelines and classification models to predict customer churn</p>
+                        <div class="tags">
+                            <span>Classification</span>
+                            <span>AutoML</span>
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Scikit-learn</span>
+                            <span>XGBoost</span>
+                        </div>
+                        <a href="https://github.com/kamalkishor-roj/Customer_churn_prediction" class="btn-link">View
+                            Repository <i class="fas fa-arrow-right"></i></a>
+                        <div class="project-details">
+                            <img src="assets/churned.png" alt="Project Dashboard" class="project-img">
+                            <p><strong>The Problem:</strong> Businesses face significant revenue loss from customer
+                                attrition, making it essential to identify high-risk users before they leave.
+                                <strong>The Solution:</strong> I developed a churn classification model to identify
+                                patterns in customer behavior and predict the likelihood of turnover.
+                                <strong>Technical Highlights:</strong> Utilized XGBoost and Random Forest algorithms on
+                                telecom datasets to achieve high classification accuracy.
+                                Implemented data preprocessing techniques including One-Hot Encoding and feature scaling
+                                to optimize model input.
+                                Visualized and evaluated model performance using ROC curves and Confusion Matrices to
+                                ensure predictive reliability.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>HR Interactive Dashboard</h3>
+                        <p>Business intelligence dashboard demonstrating workforce metrics, attrition rates, and
+                            performance analytics using Excel.</p>
+                        <div class="tags">
+                            <span>Excel</span>
+                            <span>Dashboarding</span>
+                            <span>Analytics</span>
+                            <span>Pivot Tables</span>
+                            <span>Charts</span>
+                        </div>
+                        <a href="https://github.com/kamalkishor-roj/HR-Interactive-Dashboard" class="btn-link">View
+                            Repository <i class="fas fa-arrow-right"></i></a>
+                        <div class="project-details">
+                            <img src="assets/dashboard.png" alt="Project Dashboard" class="project-img">
+                            <p><strong>The Problem:</strong> HR departments often struggle to visualize key performance
+                                indicators (KPIs) across different departments effectively.
+                                <strong>The Solution:</strong> I created a professional-grade interactive dashboard in
+                                Excel to provide clear, actionable insights into workforce metrics.
+                                <strong>Technical Highlights:</strong> Leveraged Pivot Tables and Slicers to allow users
+                                to filter data dynamically by department or metric.Designed intuitive charts that
+                                highlight critical trends in employee data, aiding in data-driven decision-making.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Education -->
+    <section id="certifications">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="edu-grid">
+                <div class="edu-card">
+                    <h3>Bachelor of Engineering in Computer Engineering</h3>
+                    <p class="subtitle">Ajeenkya D. Y. Patil School of Engineering</p>
+                    <p class="date">Expected 2026</p>
+                </div>
+                <div class="edu-card highlight">
+                    <h3>IBM Data Science Professional Certificate</h3>
+                    <p class="subtitle">Coursera / IBM</p>
+                    <p class="desc">Comprehensive curriculum covering Python, SQL, Data Analysis, Visualization, and
+                        Machine Learning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:rojkamal6@gmail.com">rojkamal6@gmail.com</a>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+919309861527">+91 9309861527</a>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Pune, Maharashtra, India</span>
+                    </div>
+                </div>
+                <!-- NOTE: Replace 'YOUR_FORM_ID' with your actual Formspree Form ID -->
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <p>Whether you have a question about my projects or a potential opportunity, feel free to reach out!
+                    </p>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                    <!-- Success page redirect (Optional: Uncomment and set your specific GitHub Pages URL)
+                    <input type="hidden" name="_next" value="https://yourusername.github.io/repo/success.html">
+                    -->
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Kamalkishor Roj. Built with <i class="fas fa-heart"></i> and Code.</p>
+        </div>
+    </footer>
+
+    <script src="js/particles.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
